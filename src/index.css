@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes highlight {
+  0% {
+    background-color: rgb(59, 130, 246);
+  }
+  100% {
+    background-color: rgb(55, 65, 81);
+  }
+}
+
+.animate-highlight {
+  animation: highlight 1s ease-out;
+}
